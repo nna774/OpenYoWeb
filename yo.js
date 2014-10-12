@@ -8,7 +8,7 @@
                 username: $('#id').val(),
                 password: $('#pass').val()
             },
-            method: 'POST'
+            method: 'GET'
         }).done(function(data){
              if(data.code == "200"){
                  $('#authMsg').text("token 取得成功");
